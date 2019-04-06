@@ -1,0 +1,13 @@
+html {
+    font-size: 16px;
+    /* color: antiquewhite; */
+    background: url('../../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body, html {
+    font-family: monospace;
+    margin: 0px;
+    padding: 0px;
+}
