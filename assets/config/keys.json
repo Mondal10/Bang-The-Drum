@@ -1,3 +1,58 @@
 {
-    "keys": []
+    "keys": [
+        {
+            "dataKey": 65,
+            "src": "clap.wav",
+            "key": "A",
+            "name": "clap"
+        },
+        {
+            "dataKey": 83,
+            "src": "hihat.wav",
+            "key": "S",
+            "name": "hihat"
+        },
+        {
+            "dataKey": 68,
+            "src": "kick.wav",
+            "key": "D",
+            "name": "kick"
+        },
+        {
+            "dataKey": 70,
+            "src": "openhat.wav",
+            "key": "F",
+            "name": "openhat"
+        },
+        {
+            "dataKey": 71,
+            "src": "boom.wav",
+            "key": "G",
+            "name": "boom"
+        },
+        {
+            "dataKey": 72,
+            "src": "ride.wav",
+            "key": "H",
+            "name": "ride"
+        },
+        {
+            "dataKey": 74,
+            "src": "snare.wav",
+            "key": "J",
+            "name": "snare"
+        },
+        {
+            "dataKey": 75,
+            "src": "tom.wav",
+            "key": "K",
+            "name": "tom"
+        },
+        {
+            "dataKey": 76,
+            "src": "tink.wav",
+            "key": "L",
+            "name": "tink"
+        }
+    ]
 }
