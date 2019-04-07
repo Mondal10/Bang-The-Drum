@@ -1,5 +1,5 @@
-import { Play } from './play.js'
-var playDrum = new Play();
+import { Play } from './play.js';
+let playDrum = new Play();
 
 /**
  * Create the keys/buttons
