@@ -1,4 +1,5 @@
 import { Play } from './play.js'
+var playDrum = new Play();
 
 /**
  * Create the keys/buttons
@@ -15,9 +16,12 @@ export const createKeys = (data) => {
     keys.forEach((key, i) => {
         $key = $('<div>').addClass('keyDiv').attr('data-key', key.dataKey).appendTo($('.keysDiv'));
 
+        // Transition end as the name says, it triggers function on css transition end.
+        $key[0].addEventListener('transitionend', playDrum.removeTransition);
+
         $keyBinding = $('<kbd>').html(key.keyBinding).appendTo($key);
 
-        $span = $('<span>').addClass(key.name).html(key.name).appendTo($key);
+        $span = $('<span>').addClass("sound").html(key.name).appendTo($key);
 
         $audio = $('<audio>').attr({
             'data-key': key.dataKey,
@@ -26,6 +30,4 @@ export const createKeys = (data) => {
     });
 }
 
-var playDrum = new Play();
-
-window.addEventListener('keydown', playDrum.sound);
+window.addEventListener('keydown', playDrum.sound); 
