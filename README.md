@@ -1,7 +1,7 @@
 <p align="center">
   <img  alt="make it dark" height="256px" width="256px" src="https://cdn2.iconfinder.com/data/icons/analytic-investment-and-balanced-scorecard/512/408_drum_drums_instrument_kit_musical_sound_design_producstion-512.png">
 </p>
-<h1 align="center">Bang The Drum</h1>
+<h1 align="center"><a href="https://mondal10.github.io/Bang-The-Drum/">Bang The Drum</a></h1>
 
 Just a self learning project to implement JavaScript modules. 
 
