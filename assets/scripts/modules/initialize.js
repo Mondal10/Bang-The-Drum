@@ -1,4 +1,8 @@
-import { createKeys } from './createKeys.js'
+import { getJsonData } from './getJson.js'
+
+/**
+ * Initialize
+ */
 export const init = () => {
-    createKeys();
+    getJsonData('./assets/config/keys.json')
 }
