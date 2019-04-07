@@ -1,57 +1,57 @@
 {
     "keys": [
         {
-            "dataKey": 65,
-            "src": "clap.wav",
-            "key": "A",
+            "dataKey": "65",
+            "src": "./assets/sounds/clap.wav",
+            "keyBinding": "A",
             "name": "clap"
         },
         {
-            "dataKey": 83,
-            "src": "hihat.wav",
-            "key": "S",
+            "dataKey": "83",
+            "src": "./assets/sounds/hihat.wav",
+            "keyBinding": "S",
             "name": "hihat"
         },
         {
-            "dataKey": 68,
-            "src": "kick.wav",
-            "key": "D",
+            "dataKey": "68",
+            "src": "./assets/sounds/kick.wav",
+            "keyBinding": "D",
             "name": "kick"
         },
         {
-            "dataKey": 70,
-            "src": "openhat.wav",
-            "key": "F",
+            "dataKey": "70",
+            "src": "./assets/sounds/openhat.wav",
+            "keyBinding": "F",
             "name": "openhat"
         },
         {
             "dataKey": 71,
-            "src": "boom.wav",
-            "key": "G",
+            "src": "./assets/sounds/boom.wav",
+            "keyBinding": "G",
             "name": "boom"
         },
         {
-            "dataKey": 72,
-            "src": "ride.wav",
-            "key": "H",
+            "dataKey": "72",
+            "src": "./assets/sounds/ride.wav",
+            "keyBinding": "H",
             "name": "ride"
         },
         {
-            "dataKey": 74,
-            "src": "snare.wav",
-            "key": "J",
+            "dataKey": "74",
+            "src": "./assets/sounds/snare.wav",
+            "keyBinding": "J",
             "name": "snare"
         },
         {
-            "dataKey": 75,
-            "src": "tom.wav",
-            "key": "K",
+            "dataKey": "75",
+            "src": "./assets/sounds/tom.wav",
+            "keyBinding": "K",
             "name": "tom"
         },
         {
-            "dataKey": 76,
-            "src": "tink.wav",
-            "key": "L",
+            "dataKey": "76",
+            "src": "./assets/sounds/tink.wav",
+            "keyBinding": "L",
             "name": "tink"
         }
     ]

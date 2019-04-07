@@ -1,0 +1,26 @@
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.keysDiv {
+    display: flex;
+    flex: 1;
+    height: 100vh; /*VH is viewport height, 100vh is basically 100% height of the viewport*/
+    align-items: center;
+    justify-content: center;
+}
+
+.keyDiv {
+    border: .4rem solid slategray;
+    border-radius: .5rem;
+    margin: 0.7rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: whitesmoke;
+    background: rgba(0,0,0,0.6);
+    text-shadow: 0 0 .5rem slategray;
+}
